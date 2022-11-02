@@ -59,6 +59,8 @@ header {
 
 #logo {
   width: 8rem;
+  margin-left: .25rem;
+  margin-top: .25rem;
   height: auto;
 }
 
@@ -193,7 +195,7 @@ main * {
 
 @counter-style wrench {
   system: cyclic;
-  symbols: "🔧";
+  symbols: url("http://127.0.0.1:5501/images/check-circle.svg");
   suffix: " ";
 }
 
